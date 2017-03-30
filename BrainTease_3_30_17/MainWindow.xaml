@@ -1,0 +1,15 @@
+﻿<Window x:Class="BrainTease_3_30_17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BrainTease_3_30_17"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Is Palindrome" HorizontalAlignment="Right" Margin="0,214,9.667,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox Name="input_txt" Height="117" Margin="10,53,9.667,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Label Name="answer" Content="" Margin="10,239,9.667,0" FontSize="48" FontWeight="Bold" HorizontalContentAlignment="Center" Height="72" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
